@@ -2,7 +2,7 @@
 [![pub package](https://img.shields.io/pub/v/june_lego.svg)](https://pub.dartlang.org/packages/june_lego)
 
 # june_lego
-description here
+lego that template for june state management
 
 ##  Installation
 1. If the lego project doesn't exist, please create new project by following [guide](https://lego.junestory.com/).
@@ -12,4 +12,24 @@ description here
  ```
 
 ## Usage
-Usage here
+```dart
+import 'package:june/june.dart';
+
+import '../../../../../../../../../../../main.dart';
+
+class NewVM extends JuneState {
+  // int count = 0;
+
+  // someAction() {
+  //   count++;
+  //   setState();
+  // }
+}
+
+/* usage
+JuneBuilder(
+  () => NewVM(),
+  builder: (vmNew) => widget
+)
+ */
+```
